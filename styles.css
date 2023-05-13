@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+*{
+    font-family: Poppins;
+}
+.main{
+    border-radius: 9px;
+    width:70%;
+    height:65%;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(194, 191, 191);
+}
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    grid-gap: 10px 18px;
+    margin-bottom:40px;
+}
+.buttons button{
+    height: 45px;
+}
+.primary-light{
+    height:45px;
+    background-color: rgb(73, 106, 252);
+    color: white;
+    border: 1px solid rgb(80, 112, 253);
+    border-radius: 5px;
+}
+.primary-dark{
+    height:45px;
+    background-color: rgb(38, 57, 143);
+    color: white;
+    border: 1px solid rgb(38, 57, 143);
+    border-radius: 5px;
+}
+.secondary-light{
+    height:45px;
+    color: rgb(73, 106, 252);
+    background-color: white;
+    border: 1px solid rgb(80, 112, 253);
+    border-radius: 5px;
+}
+.secondary-dark{
+    height:45px;
+    color: rgb(38, 57, 143);
+    background-color: white;
+    border: 1px solid rgb(38, 57, 143);
+    border-radius: 5px;
+}
+.primary-disabled{
+    height:45px;
+    background-color: rgb(141, 141, 145);
+    color: white;
+    border: 1px solid rgb(141, 141, 145);
+    border-radius: 5px;
+}
+.secondary-disabled{
+    height:45px;
+    color: rgb(141, 141, 145);
+    background-color: white;
+    border: 1px solid rgb(141, 141, 145);
+    border-radius: 5px;
+}
+.ghost{
+    border: 1px solid white;
+    background-color: white;
+    color: rgb(151, 145, 145);
+    width:30px;
+}
+.more-words{
+    display:flex;
+    gap:50px;
+    font-size:13px;
+}
+.default{
+    border-radius:14px;
+    background-color: rgb(38, 57, 143);
+    color:white;
+    border: solid 1px white;
+    width:120px;
+    height:30px;
+}
+.positive{
+    color:white;
+    border-radius:14px;
+    background-color: rgb(13, 75, 11);
+    border: solid 1px white;
+    width:120px;
+    height:30px;
+}
+.negative{
+    color:white;
+    border-radius:14px;
+    background-color: rgb(255, 40, 86);
+    border: solid 1px white;
+    width:120px;
+    height:30px;
+}
+.badge{
+    float: left;
+}
+.card-details{
+    border: solid 1px rgb(151, 145, 145);
+    border-radius: 7px;
+    padding-left: 10px;
+}
+a:not(.wear) {
+text-decoration: none;
+}
+  
